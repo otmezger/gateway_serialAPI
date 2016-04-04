@@ -1,0 +1,23 @@
+{
+  "name": "energymonitor_gatewayapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "mime-types": "^2.1.7",
+    "mongoose": "^4.1.7",
+    "serialport": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rsync": "0.0.5",
+    "gulp-watch": "^4.3.5"
+  }
+}
