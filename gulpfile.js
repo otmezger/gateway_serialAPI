@@ -22,10 +22,10 @@ gulp.task('deploy', function() {
   gulp.src(['./*','./models/*'])
     .pipe(rsync({
       root: './',
-      username: 'energy',
-      hostname: '192.168.1.116',
+      username: 'teciot',
+      hostname: '172.21.255.33',
       exclude:['./node_modules'],
-      destination: '/home/energy/productive/api'
+      destination: '/home/teciot/productive/api'
     }));
 });
 

@@ -4,7 +4,7 @@ var SerialPort = require("serialport");
 /*
   ============================================================ DEFINITIONS
 */
-var serialPort_1 = new SerialPort.SerialPort("/dev/serial/by-path/platform-3f980000.usb-usb-0:1.3:1.0-port0", {
+var serialPort_1 = new SerialPort.SerialPort("/dev/serial/by-path/platform-20980000.usb-usb-0:1.3:1.0", {
   baudrate: 9600,
   parser: SerialPort.parsers.readline("\n")
   //parser: SerialPort.parsers.raw
